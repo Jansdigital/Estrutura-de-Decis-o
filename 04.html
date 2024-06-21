@@ -1,0 +1,35 @@
+
+<script>
+
+let aluno = parseFloat(prompt('Digite o nome do Aluno:'))
+let trabalho = parseFloat(prompt('Digite a nota do trabalho:'))
+let atividade = parseFloat(prompt('Digite a nota da Atividade:'))
+let atividadeSala = parseFloat(prompt('Digite a nota da Atividade em sala:'))
+let nota = parseFloat(prompt('Digite a nota da prova:'))
+//Total da nota
+
+
+let media = (trabalho + atividade+atividadeSala+nota)/4
+//media e soma dos valores dividido pela quantidade total ex.: (10+5+3)/3 = 6
+
+//abaixo vai começãr as impressões:
+
+console.log('Aluno: ',aluno)
+console.log('Trabalho:', trabalho )
+console.log('Atividade:', atividade )
+console.log('Atividade em sala:', atividadeSala )
+console.log('Nota da Prova:', nota)
+console.log('Nota da Média:', media)
+
+if (media >= 7){
+    console.log('Aprovado')
+
+
+}else{
+    console.log('Reprovado')
+}
+
+
+
+
+</script>
