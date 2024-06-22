@@ -1,0 +1,14 @@
+<script>
+
+    let numero = parseInt(prompt("Digite um número maior que 10:"));
+
+    while (numero <= 10) {
+        alert("O número deve ser maior que 10. Tente novamente.");
+        numero = parseInt(prompt("Digite um número maior que 10:"));
+    }
+    //para não ocorrer loop infinito alert precisa sempre 
+    //colocar do prompt do bloco
+
+    console.log("Obrigado! Você digitou um numero valido: ", numero);
+
+</script>

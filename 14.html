@@ -1,0 +1,19 @@
+<script>
+    // Solicitando o nome do usuário
+    let nome = prompt('Digite seu nome:');
+
+    // Solicitando a senha ao usuário
+    let senha = prompt('Digite a senha:');
+
+    // Armazenando a senha definida
+    let senhaDefinida = 'Senac';
+
+    // Verificando se a senha está correta
+    while (senha !== senhaDefinida) {
+        console.log('Acesso negado, digite a senha novamente.');
+        senha= prompt('Digite a senha:');
+    } 
+    // Este !== significa diferente
+
+    console.log('Acesso Permitido, seja bem-vindo, '+ nome + '!');
+</script>
